@@ -103,7 +103,7 @@ static void ConfigureMongo(IServiceCollection services, IConfiguration configura
 [ExcludeFromCodeCoverage]
 static void ConfigureMiddleware(WebApplication app)
 {
-    app.UseExceptionHandler();
+    //app.UseExceptionHandler();
 
     app.UseSerilogRequestLogging();
 
