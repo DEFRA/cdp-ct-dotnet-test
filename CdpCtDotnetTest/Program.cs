@@ -30,6 +30,7 @@ static WebApplication BuildApp(string[] args)
     return app;
 }
 
+
 [ExcludeFromCodeCoverage]
 static void ConfigureHost(WebApplicationBuilder builder)
 {
